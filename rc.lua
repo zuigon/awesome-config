@@ -326,7 +326,7 @@ globalkeys = awful.util.table.join(
     awful.key({}, "#123", function () exec("pvol.py -p -c 2")  end),
     awful.key({}, "#232", function () exec("plight.py -s") end),
     awful.key({}, "#233", function () exec("plight.py -s") end),
-    awful.key({}, "#244", function () exec("sudo /usr/sbin/pm-hibernate") end),
+    awful.key({}, "#244", function () exec("sudo /usr/sbin/pm-hibernate") end), -- radi
     awful.key({}, "#150", function () exec("sudo /usr/sbin/pm-suspend")   end),
     awful.key({}, "#225", function () exec("pypres.py") end),
     awful.key({}, "#157", function () if boosk then osk()
